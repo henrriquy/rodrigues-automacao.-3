@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>Rodrigues Soluções</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="_node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is for the animation CSS -->
+    <link href="_node_modules/aos/dist/aos.css" rel="stylesheet">
+    <link href="_node_modules/prism/prism.css" rel="stylesheet">
+    <link href="_node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <!-- This page plugin CSS -->
+    <link href="_node_modules/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="_node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet">
+    <link href="_node_modules/owl-carousel/dist/assets/owl.theme.default.css" rel="stylesheet">
+    <!-- This css we made it from our predefine componenet 
+    we just copy that css and paste here you can also do that -->
+    <link href="scss/demo.css" rel="stylesheet">
+    <!-- Common style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/yourstyle.css" rel="stylesheet">
+    <link href="css/portfolio/portfolio.css" rel="stylesheet">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+             * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> 
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="">
+    <!-- /.modal-dialog -->
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 overflow-hidden">
+                    <div class="row rounded-left">
+                        <div class="col-md-5 p-0 rounded-left">
+                            <img class="rounded-left h-100 w-100 img-cover" src="images/servicos_site/automacao.jpg"
+                                alt="wrappixel kit" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="close p-3" data-dismiss="modal" aria-hidden="true">×</div>
+                            <div class="pl-2 pt-4 pr-4 pb-4">
+                                <h3 class="font-medium">Automação</h3>
+                                <p class="text-justify font-13 line-height">
+                                    Para uma casa ampla e robusta um sistema de automação e
+                                    fundamental já imaginou ter o controle de iluminação da sua casa na palma da
+                                    sua
+                                    mão?
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Um bom projeto para a integração dos sistemas é fundamental, por isso
+                                    trabalhamos
+                                    com sistemas de automação robustos capaz de integrar todo o sistema de sua
+                                    residência através de um único software compatível com smartphone e tablets.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Com isso você pode controlar seus sistemas de iluminação, persianas, áudio e
+                                    vídeo, ar-condicionado, câmeras de um único aplicativo, tornando o controle
+                                    fácil e intuitivo através de cenas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- /.modal-dialog -->
+    <div class="modal fade modalHomeTheater" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 overflow-hidden">
+                    <div class="row rounded-left">
+                        <div class="col-md-5 p-0 rounded-left">
+                            <img class="rounded-left h-100 w-100 img-cover"
+                                src="images/servicos_site/home_theater_2.jpg" alt="wrappixel kit" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="close p-3" data-dismiss="modal" aria-hidden="true">×</div>
+                            <div class="pl-2 pt-4 pr-4 pb-4">
+                                <h3 class="font-medium">Home Theater</h3>
+                                <p class="text-justify font-13 line-height">
+                                    Home Theater é tratado por nós com muito carinho, afinal esse é o ambiente principal
+                                    de entretenimento da casa.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    O som será de cinema! O ambiente vai proporcionar profunda imersão sonora com a
+                                    qualidade encontrada somente nas melhores salas.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Os equipamentos que comandam som e imagem são de última geração, alinhados com as
+                                    tecnologias mais recentes e totalmente integráveis à automação, ampliando ainda mais
+                                    a satisfação e a praticidade em utilizá-los.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- /.modal-dialog -->
+    <div class="modal fade modalSomAmbiente" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 overflow-hidden">
+                    <div class="row rounded-left">
+                        <div class="col-md-5 p-0 rounded-left">
+                            <img class="rounded-left h-100 w-100 img-cover"
+                                src="images/servicos_site/som ambiente.jpg" alt="wrappixel kit" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="close p-3" data-dismiss="modal" aria-hidden="true">×</div>
+                            <div class="pl-2 pt-4 pr-4 pb-4">
+                                <h3 class="font-medium">Som Ambiente</h3>
+                                <p class="text-justify font-13 line-height">
+                                    Uma casa com ambientes amplos claramente divididos, porém, iterligados e conectados,
+                                    ganham uma harmonia ôrganica, e o som ambiente além de necessário e prático, amplia
+                                    ainda mais essa sensação.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Uma casa conectada não pode depender de um sistema “travado” e pouco funcional. Por
+                                    isso, projetamos um sistema chamado “multiroom”, onde os ambientes são controlados
+                                    por uma central que gerencia as fontes de áudio e o local onde se quer ouví-los.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    O sistema permite independência de fontes de áudio ou mesmo sua unificação,
+                                    transformando a casa em vários ambientes distintos para situações diferentes, ou em
+                                    um único ambiente uníssono. As caixas de som mantém a tônica do projeto “clean”.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- /.modal-dialog -->
+    <div class="modal fade modalWiFi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 overflow-hidden">
+                    <div class="row rounded-left">
+                        <div class="col-md-5 p-0 rounded-left">
+                            <img class="rounded-left h-100 w-100 img-cover"
+                                src="images/servicos_site/som ambiente.jpg" alt="wrappixel kit" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="close p-3" data-dismiss="modal" aria-hidden="true">×</div>
+                            <div class="pl-2 pt-4 pr-4 pb-4">
+                                <h3 class="font-medium">
+                                    Wi-Fi</h3>
+                                <p class="text-justify font-13 line-height">
+                                    Para que as soluções de automação e áudio & vídeo, performem em seu máximo de
+                                    eficiência, uma rede robusta e confiável é necessária.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Nossos equipamentos são utilizados em grandes áreas e trabalham com configuração
+                                    específica, tanto em transmissão como proteção dos dados. Permitem um número maior
+                                    de usuários por ponto, sem que seja sentida sua multiplicidade, ou seja, sem perdas.
+                                </p>
+                                <p class="text-justify font-13 line-height">
+                                    Nosso sistema de rede wifi, além de garantir amplitude / abrangência de sinal da
+                                    rede, também mantém sua estabilidade que é tão ou a mais importante qualidade que a
+                                    rede precisa ter.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- /.modal-dialog -->
+    <div class="modal fade modalCFTV" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0 overflow-hidden">
+                    <div class="row rounded-left">
+                        <div class="col-md-5 p-0 rounded-left">
+                            <img class="rounded-left h-100 w-100 img-cover" src="images/servicos_site/cftv.jpg"
+                                alt="wrappixel kit" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="close p-3" data-dismiss="modal" aria-hidden="true">×</div>
+                            <div class="pl-2 pt-4 pr-4 pb-4">
+                                <h3 class="font-medium">
+                                    CFTV</h3>
+                                <p class="text-justify font-13 line-height">
+                                    O Sistema de CFTV permite o monitoramento local com todas as funcionalidades, como
+                                    também o acesso remoto a todas as câmeras da casa, garantindo maior tranquilidade e
+                                    prontidão ao cliente em caso de necessidade.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal-dialog -->
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label text-dark">Rodrigues Soluções</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="topbar">
+            <div class="header13 po-relative">
+                <!-- Header 13 topbar -->
+                <div class="container">
+                    <!-- Header 13 navabar -->
+                    <nav class="navbar navbar-expand-lg hover-dropdown h13-nav">
+                        <a class="navbar-brand" href="#" style="height:85px; width:130px;overflow: hidden;">
+                            <img src="images/LOGO_RODRIGUES.svg" style="width: 140px;margin-top: -45px;" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header13"
+                            aria-controls="header13" aria-expanded="false" aria-label="Toggle navigation"
+                            style="color:#face38;">
+                            <span class="ti-menu"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="header13">
+                            <ul class="navbar-nav" id="top-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="collapse" data-target="#header13"
+                                        aria-controls="header13" aria-expanded="false" aria-label="Toggle navigation"
+                                        href="#servicos">Serviços</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portifolio" data-toggle="collapse"
+                                        data-target="#header13" aria-controls="header13" aria-expanded="false"
+                                        aria-label="Toggle navigation">Portifólio</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#sobre" data-toggle="collapse" data-target="#header13"
+                                        aria-controls="header13" aria-expanded="false"
+                                        aria-label="Toggle navigation">Sobre</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#parceiros" data-toggle="collapse" data-target="#header13"
+                                        aria-controls="header13" aria-expanded="false"
+                                        aria-label="Toggle navigation">Parceiros</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contato" data-toggle="collapse" data-target="#header13"
+                                        aria-controls="header13" aria-expanded="false"
+                                        aria-label="Toggle navigation">Contato</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav social-icon ml-auto">
+                                <li class="nav-item d-inline ">
+                                    <a class="nav-link social d-none d-sm-none d-md-block" href="#"><i
+                                            class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="nav-item d-inline">
+                                    <a class="nav-link social d-none d-sm-none d-md-block" href="#"><i
+                                            class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="nav-item d-inline d-block d-sm-block d-md-none">
+                                    <a class="nav-link social d-inline" href="#"><i class="fa fa-facebook"></i></a>
+                                    <a class="nav-link social d-inline" href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- End Header 13 navabar -->
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Slider  -->
+                <!-- ============================================================== -->
+                <div class="bg-dark">
+                    <section id="slider-sec" class="slider2">
+                        <div id="slider2" class="carousel bs-slider slide  control-round indicators-line"
+                            data-ride="carousel" data-pause="hover" data-interval="7000">
+                            <ol class="carousel-indicators ">
+                                <li data-target="#slider2" data-slide-to="0" class="active"></li>
+                                <li data-target="#slider2" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <!-- Slide Background --><img src="images/slider/slide3.jpg"
+                                        alt="We are Digital Agency" class="slide-image" />
+                                    <!-- Slide Text Layer -->
+                                    <!-- <div class="slide-text slide_style_left">
+                                        <div class="col-md-9 col-lg-6">
+                                            <label class="label bg-white text-uppercase font-semibold"
+                                                data-animation="animated fadeInDown">Welcome To</label>
+                                            <h2 data-animation="animated zoomInRight" class="title text-white">Machinery
+                                                and Hardware Company, which makes Quality Products</h2>
+                                        </div>
+                                        <div class="col-md-8 col-lg-5">
+                                            <p data-animation="animated fadeInLeft"
+                                                class="m-t-40 m-b-40 hidden-sm-down text-white op-8">We offer services
+                                                in various jonar of Accounting. Let us take your all worry regarding
+                                                your daily accounting and take rest.</p>
+                                        </div>
+                                        <div class="col-sm-12 btn-pad">
+                                            <a class="btn btn-info-gradiant btn-md btn-arrow"
+                                                data-animation="animated fadeInLeft" data-toggle="collapse" href="#">
+                                                <span>Ask for Question <i class="ti-arrow-right"></i></span> </a>
+                                            <a class="btn text-white" data-animation="animated fadeInRight"
+                                                data-toggle="modal" data-target="#video" href="#"><i
+                                                    class="icon-Play-Music text-white vm m-r-10"></i> Watch Video</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <!-- End of Slide -->
+                                <!-- Third Slide -->
+                                <div class="carousel-item">
+                                    <!-- Slide Background --><img src="images/slider/slide4.jpg"
+                                        alt="Building Magical Apps" class="slide-image" />
+                                    <!-- Slide Text Layer -->
+                                    <!-- <div class="slide-text d-none d-lg-block">
+                                        <div class="col-md-9 col-lg-6">
+                                            <h2 data-animation="animated flipInX" class="title text-white">
+                                                Titulo Digitado
+                                        </div>
+                                        <div class="col-md-8 col-lg-5">
+                                            <p data-animation="animated lightSpeedIn"
+                                                class="m-t-40 m-b-40 hidden-sm-down">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                since the 1500s</p>
+                                        </div>
+                                        <div class="col-sm-12 btn-pad">
+                                            <a class="btn btn-info-gradiant btn-md btn-arrow"
+                                                data-animation="animated fadeInUp" data-toggle="collapse" href="#">
+                                                <span>Faça um orçamento <i class="ti-arrow-right"></i></span> </a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <!-- End of Slide -->
+                                <!-- End of Wrapper For Slides -->
+                                <!-- Slider Control -->
+                                <div class="slider-control d-none d-lg-block">
+                                    <!-- Left Control -->
+                                    <a class="left carousel-control-prev text-white font-14" href="#slider2"
+                                        role="button" data-slide="prev"> <span class="ti-arrow-left"
+                                            aria-hidden="true"></span> <b class="sr-only font-normal">Previous</b> </a>
+                                    <!-- Right Control -->
+                                    <a class="right carousel-control-next text-white font-14" href="#slider2"
+                                        role="button" data-slide="next"> <span class="ti-arrow-right"
+                                            aria-hidden="true"></span> <b class="sr-only font-normal">Next</b> </a>
+                                </div>
+                                <!-- End of Slider Control -->
+                            </div>
+                        </div>
+                        <!-- End Slider -->
+                        <!-- Slider Modal -->
+                        <div class="modal bd-example-modal-lg fade" id="video" tabindex="-1" role="dialog"
+                            aria-labelledby="modalTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalTitle">Your Video Title Here</h5>
+                                        <button type="button" class="close font-20" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span aria-hidden="true" class="ti-close"></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video width="100%" controls>
+                                            <source src="images/slider/welding.mp4" type="video/mp4"> Your browser does
+                                            not support HTML5 video.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Slider Modal -->
+                    </section>
+                </div>
+                <!-- Case study  -->
+                <!-- ============================================================== -->
+                <div class="mini-spacer feature7" id="servicos">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title">Serviços</h2>
+                                <!-- <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6> -->
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="d-flex m-t-40">
+                            <!-- Column -->
+                            <div class="flex-fill p-3">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded img-cover w-100 img-servicos "
+                                        src="images/servicos_site/automacao.jpg" alt="wrappixel kit" />
+                                    <div class="m-t-10">
+                                        <h6 class="font-medium m-b-0">Automação</h6>
+                                        <p class="block-with-text font-13 text-justify m-b-0">
+                                            Para uma casa ampla e robusta um sistema de automação e
+                                            fundamental já imaginou ter o controle de iluminação da sua casa na palma da
+                                            sua
+                                            mão?
+                                            <br />
+                                            Um bom projeto para a integração dos sistemas é fundamental, por isso
+                                            trabalhamos
+                                            com sistemas de automação robustos capaz de integrar todo o sistema de sua
+                                            residência através de um único software compatível com smartphone e tablets.
+                                            <br />
+                                            Com isso você pode controlar seus sistemas de iluminação, persianas, áudio e
+                                            vídeo, ar-condicionado, câmeras de um único aplicativo, tornando o controle
+                                            fácil e intuitivo através de cenas.
+                                        </p>
+                                        <a href="#" class="linking m-t-10 font-light font-13" data-toggle="modal"
+                                            data-target=".bs-example-modal-lg">Ler mais
+                                            <i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="flex-fill p-3">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded  img-cover w-100 img-servicos"
+                                        src="images/servicos_site/home_theater_2.jpg" alt="wrappixel kit" />
+                                    <div class="m-t-10">
+                                        <h6 class="font-medium m-b-0">Home Theater</h6>
+                                        <p class="block-with-text font-13 text-justify m-b-0">
+                                            Home Theater é tratado por nós com muito carinho, afinal esse é o ambiente
+                                            principal de entretenimento da casa.
+                                            <br />
+                                            O som será de cinema! O ambiente vai proporcionar profunda imersão sonora
+                                            com a qualidade encontrada somente nas melhores salas.
+                                            <br />
+                                            Os equipamentos que comandam som e imagem são de última geração, alinhados
+                                            com as tecnologias mais recentes e totalmente integráveis à automação,
+                                            ampliando ainda mais a satisfação e a praticidade em utilizá-los.
+                                        </p>
+                                        <a href="#" class="linking m-t-10 font-light font-13" data-toggle="modal"
+                                            data-target=".modalHomeTheater">Ler mais
+                                            <i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="flex-fill p-3">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded  img-cover w-100 img-servicos"
+                                        src="images/servicos_site/som ambiente.jpg" alt="wrappixel kit" />
+                                    <div class="m-t-10">
+                                        <h6 class="font-medium m-b-0">Som Ambiente</h6>
+                                        <p class="block-with-text font-13 text-justify m-b-0">
+                                            Uma casa com ambientes amplos claramente divididos, porém, iterligados e
+                                            conectados, ganham uma harmonia ôrganica, e o som ambiente além de
+                                            necessário e prático, amplia ainda mais essa sensação.
+                                            <br />
+                                            Uma casa conectada não pode depender de um sistema “travado” e pouco
+                                            funcional. Por isso, projetamos um sistema chamado “multiroom”, onde os
+                                            ambientes são controlados por uma central que gerencia as fontes de áudio e
+                                            o local onde se quer ouví-los.
+                                            <br />
+                                            O sistema permite independência de fontes de áudio ou mesmo sua unificação,
+                                            transformando a casa em vários ambientes distintos para situações
+                                            diferentes, ou em um único ambiente uníssono. As caixas de som mantém a
+                                            tônica do projeto “clean”.
+                                        </p>
+                                        <a href="#" class="linking m-t-10 font-light font-13"
+                                            data-toggle="modal" data-target=".modalSomAmbiente">Ler mais
+                                            <i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="flex-fill p-3">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded  img-cover w-100 img-servicos"
+                                        src="images/servicos_site/wi-fi.png" alt="wrappixel kit" />
+                                    <div class="m-t-10">
+                                        <h6 class="font-medium m-b-0">Wi-Fi</h6>
+                                        <p class="block-with-text font-13 text-justify m-b-0">
+                                            Para que as soluções de automação e áudio & vídeo, performem em seu máximo
+                                            de eficiência, uma rede robusta e confiável é necessária.
+                                            <br />
+                                            Nossos equipamentos são utilizados em grandes áreas e trabalham com
+                                            configuração específica, tanto em transmissão como proteção dos dados.
+                                            Permitem um número maior de usuários por ponto, sem que seja sentida sua
+                                            multiplicidade, ou seja, sem perdas.
+                                            <br />
+                                            Nosso sistema de rede wifi, além de garantir amplitude / abrangência de
+                                            sinal da rede, também mantém sua estabilidade que é tão ou a mais importante
+                                            qualidade que a rede precisa ter.
+                                        </p>
+                                        <a href="#" class="linking m-t-10 font-light font-13" data-toggle="modal"
+                                            data-target=".modalWiFi">Ler mais
+                                            <i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="flex-fill p-3">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded  img-cover w-100 img-servicos"
+                                        src="images/servicos_site/cftv.jpg" alt="wrappixel kit" />
+                                    <div class="m-t-10">
+                                        <h6 class="font-medium m-b-0">CFTV</h6>
+                                        <p class="block-with-text font-13 text-justify m-b-0">
+                                            O Sistema de CFTV permite o monitoramento local com todas as
+                                            funcionalidades, como também o acesso remoto a todas as câmeras da casa,
+                                            garantindo maior tranquilidade e prontidão ao cliente em caso de
+                                            necessidade.
+                                        </p>
+                                        <a href="#" class="linking m-t-10 font-light font-13" data-toggle="modal"
+                                            data-target=".modalCFTV">Ler mais
+                                            <i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Case study -->
+                <!-- ============================================================== -->
+                <!-- Portfolio 4  -->
+                <!-- ============================================================== -->
+                <div class="portfolio4 mini-spacer bg-dark" id="portifolio">
+                    <div class="container">
+                        <!-- Tittle and filter  -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title text-light">Portifólio</h2>
+                            </div>
+                        </div>
+                        <!-- <div class="d-flex align-items-center">
+                            <div class="">
+                                <h3 class="font-medium">Latest Works</h3>
+                            </div>
+                            <div class="ml-auto filterby">
+                                <a href="JavaScript:void(0)" class="active" data-filter="*">All</a>
+                                <a href="JavaScript:void(0)" data-filter=".abstract">Abstract</a>
+                                <a href="JavaScript:void(0)" data-filter=".typography">Typography</a>
+                                <a href="JavaScript:void(0)" data-filter=".branding">Branding</a>
+                                <a href="JavaScript:void(0)" data-filter=".print">Print</a>
+                            </div>
+                        </div> -->
+                        <!-- End Tittle and filter  -->
+                        <!-- Card Columns -->
+                        <div class="row portfolio-box4 popup-gallery">
+                            <!-- Columns -->
+                            <div class="col-lg-3 col-md-6 filter abstract print" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/flap/1.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/flap/1.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/flap/1.jpg" title="" descricao="" class="overlay">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-3 col-md-6 filter typography" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/flap/2.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/flap/2.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/flap/2.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-3 col-md-6 filter abstract" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/flap/3.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/flap/3.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/flap/3.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-3 col-md-6 filter typography print" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/flap/4.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/flap/4.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/flap/4.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 filter typography print" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/sala_cinema/4.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/sala_cinema/4.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/sala_cinema/4.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 filter branding print" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/sala_cinema/5.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/sala_cinema/5.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/sala_cinema/5.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 filter typography print" data-aos="flip-left"
+                                data-aos-duration="1200">
+                                <div class="overlay-box">
+                                    <img src="images/sala_cinema/6.jpg" style="min-width: 100%;" alt="wrpkit"
+                                        class="img-fluid d-block d-sm-block d-md-none">
+                                    <img src="images/sala_cinema/6.jpg" alt="wrpkit"
+                                        class="img-fluid d-none d-sm-none d-md-block">
+                                    <a href="images/sala_cinema/6.jpg" class="overlay" title="" descricao="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                        </div>
+                        <!-- End Card Columns -->
+                        <!-- portfolio start -->
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Portfolio 4  -->
+                <!-- ============================================================== -->
+                <!-- Quem Somos -->
+                <!-- ============================================================== -->
+                <div class="mini-spacer" id="sobre">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-7 text-center">
+                                        <h2 class="title text-dark">Sobre Nós</h2>
+                                        <!-- <h6 class="subtitle text-dark">Lorem Ipsum is simply dummy text of the printing
+                                            and
+                                            typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                            the
+                                            1500s, when an unknown printer took a galley </h6> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-none d-md-block ">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <ul class="timeline">
+                                            <li>
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h4 class="timeline-title">Rodrigues</h4>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2011</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive img-cover" alt="user"
+                                                                src="images/claudio.jpg" ></p>
+                                                        <p class="font-13 text-justify">Com mais de 15 anos prestando serviços no seguimento de
+                                                            instalações elétricas em residências de alto padrão Claudio
+                                                            Rodrigues inicia a empresa Rodrigues soluções em Eletrica
+                                                            em 2011.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h4 class="timeline-title">Casas Inteligentes</h4>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2012</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_0661.JPEG"></p>
+                                                        <p class="font-13 text-justify">Atuando no mercado de alto padrão com soluções em Eletrica,
+                                                            em 2012 visando a inovação em tecnologia e casas
+                                                            inteligentes o sócio se certifica com os melhores
+                                                            fabricantes de tecnologia de automação para deixar seus
+                                                            projetos mais completos e tecnológicos.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h4 class="timeline-title">Showroom</h4>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2012</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_8925.jpg"></p>
+                                                        <p class="font-13 text-justify">No mesmo ano é inaugurado nosso showroom repleto de
+                                                            tecnologia e inovação, para conforto e comodidade dos nossos
+                                                            clientes.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h4 class="timeline-title">Salas de Cinema</h4>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2018</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_1932.jpeg"></p>
+                                                        <p class="font-13 text-justify">
+                                                            Seguindo o passo de inovação em 2018 inauguramos mais dois
+                                                            espaços para demonstração dos nossos produtos, duas lindas
+                                                            salas de cinema repleta de novas tecnologias e Marcas
+                                                            conceituadas no mercado de automação, áudio e vídeo
+                                                            <br />
+                                                            Traga o seu projeto para a Rodrigues!!
+                                                            <br />
+                                                            <br />
+                                                            Rodrigues
+                                                            <br />
+                                                            Audio - vídeo - automação
+                                                            <br />
+                                                            Temos a solução certa para o seu projeto
+                                                            <br />
+                                                            Tecnologia e inovação em um toque!!!!
+                                                            <br />
+                                                            Em 15/08/2019 completamos 08 anos de showroom em Alphaville
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-block d-md-none ">
+                                <div class="card">
+                                    <div class="card-body p-0">
+                                        <ul class="timelineMobile">
+                                            <li class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h6 class="timeline-title">Rodrigues</h7>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2011</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive img-cover" alt="user"
+                                                                src="images/claudio.jpg" ></p>
+                                                        <p class="font-11 text-justify">Com mais de 15 anos prestando serviços no seguimento de
+                                                            instalações elétricas em residências de alto padrão Claudio
+                                                            Rodrigues inicia a empresa Rodrigues soluções em Eletrica
+                                                            em 2011.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h6 class="timeline-title">Casas Inteligentes</h6>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2012</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_0661.JPEG"></p>
+                                                        <p class="font-11 text-justify">Atuando no mercado de alto padrão com soluções em Eletrica,
+                                                            em 2012 visando a inovação em tecnologia e casas
+                                                            inteligentes o sócio se certifica com os melhores
+                                                            fabricantes de tecnologia de automação para deixar seus
+                                                            projetos mais completos e tecnológicos.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li  class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h6 class="timeline-title">Showroom</h6>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2012</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_8925.jpg"></p>
+                                                        <p class="font-11 text-justify">No mesmo ano é inaugurado nosso showroom repleto de
+                                                            tecnologia e inovação, para conforto e comodidade dos nossos
+                                                            clientes.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="timeline-inverted">
+                                                <div class="timeline-badge warning"><img class="img-responsive"
+                                                        alt="user" src="images/favicon.png"> </div>
+                                                <div class="timeline-panel" data-aos="flip-left"
+                                                    data-aos-duration="1200">
+                                                    <div class="timeline-heading">
+                                                        <h6 class="timeline-title">Salas de Cinema</h6>
+                                                        <p><small class="text-muted"><i
+                                                                    class="fa fa-clock-o"></i>2018</small> </p>
+                                                    </div>
+                                                    <div class="timeline-body">
+                                                        <p><img class="img-responsive" alt="user"
+                                                                src="images/IMG_1932.jpeg"></p>
+                                                        <p class="font-11 text-justify">
+                                                            Seguindo o passo de inovação em 2018 inauguramos mais dois
+                                                            espaços para demonstração dos nossos produtos, duas lindas
+                                                            salas de cinema repleta de novas tecnologias e Marcas
+                                                            conceituadas no mercado de automação, áudio e vídeo
+                                                            <br />
+                                                            Traga o seu projeto para a Rodrigues!!
+                                                            <br />
+                                                            <br />
+                                                            Rodrigues
+                                                            <br />
+                                                            Audio - vídeo - automação
+                                                            <br />
+                                                            Temos a solução certa para o seu projeto
+                                                            <br />
+                                                            Tecnologia e inovação em um toque!!!!
+                                                            <br />
+                                                            Em 15/08/2019 completamos 08 anos de showroom em Alphaville
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Quem Somos -->
+                <!-- ============================================================== -->
+                <!-- Parceiros -->
+                <!-- ============================================================== -->
+                <div class="mini-spacer bg-dark up" id="parceiros">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title text-light">Parceiros</h2>
+                                <h6 class="subtitle text-light">
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row client-box text-center pt-4 mt-4 pb-4 mb-4">
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/cineversum-chiave.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/marca-chiave-02.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/marca-chiave-03.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/marca-chiave-06.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/marca-chiave-07.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/marca-chiave-12.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/lutron-chiave.gif" class="w-100" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/crestron-logo.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/logo.svg" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/scenario.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/Ubiquiti_Logo.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                            <div class="col-3 col-md-2 mb-4">
+                                <img src="images/parceiros/logo-urc.png" class="w-100 img" alt="wrapkit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Parceiros -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Back to top -->
+            <!-- ============================================================== -->
+            <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="_node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="_node_modules/popper/dist/popper.min.js"></script>
+    <script src="_node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- This is for the animation -->
+    <script src="_node_modules/aos/dist/aos.js"></script>
+    <script src="_node_modules/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="_node_modules/prism/prism.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="_node_modules/owl-carousel/dist/owl.carousel.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="_node_modules/jquery.touchSwipe.min.js"></script>
+    <script src="_node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
+    <script src="_node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script>
+        $('#slider2').bsTouchSlider();
+    </script>
+    <!-- footer  -->
+    <!-- ============================================================== -->
+    <div id="map"></div>
+    <div class="footer1" id="contato" style="margin-top:-50%">
+        <div class="container">
+            <div class="row contact-container">
+                <div class="col-lg-12">
+                    <div class="card card-shadow" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="contact-box p-20">
+                                    <h3 class="title font- m-0">Contato</h3>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="Nome">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="E-mail">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="Telefone">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="Celular">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" placeholder="Mensagem">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <button type="submit"
+                                                    class="btn btn-info-gradiant btn-md m-t-20 btn-arrow"><span>
+                                                        ENVIAR <i class="ti-arrow-right"></i></span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 bg-image p-0" style="background-image:url(images/app-business-computer-2265482.jpg);background-repeat:no-repeat;
+                                background-size:cover;">
+                                <div class="detail-box" style="background-color:rgba(0,0,0,0.7);padding: 0px;">
+                                    <h5 class="text-white m-b-30 pl-4 pt-4 mb-2">Endereço</h5>
+                                    <p class="text-white op-7 pl-4 pr-4">
+                                        <small>
+                                            Estr. Municipal Bela Vista,
+                                            917, Alphaville, Stna. de
+                                            Parnaíba - SP
+                                            1º andar - loja 375
+                                            <br />contato@rodriguessolucoes.com.br
+                                            <br />+55 11 4618-6595
+                                            <br />+55 11 9-4797-1901 Whatsapp
+                                            <br />+55 11 9-4797-1899 Whatsapp
+                                        </small>
+                                    </p>
+                                    <div class="round-social light ml-4 mt-4 mb-4">
+                                        <a href="#" class="m-l-0"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class=""><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class=""><i class="fa fa-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- footer  -->
+    <script>
+        function initMap() {
+            // Styles a map in night mode.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -23.4515416, lng: -46.9025896 },
+                zoom: 16,
+                styles: [
+                    { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
+                    { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+                    { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
+                    {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#d59563' }]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#d59563' }]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#263c3f' }]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#6b9a76' }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#38414e' }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{ color: '#212a37' }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#9ca5b3' }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#746855' }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{ color: '#1f2835' }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#f3d19c' }]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#2f3948' }]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#d59563' }]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{ color: '#17263c' }]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{ color: '#515c6d' }]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{ color: '#17263c' }]
+                    }
+                ]
+            });
+        }
+    </script>
+    <script src="maps/api/js_key_AIzaSyDkqucEBKnoYgN-naNgw_yJ7WigC26lNAM_callback_initMap.js"
+        async defer></script>
+    <script src="js/portfolio.js"></script>
+<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/</a></font></center></body>
+</html>
